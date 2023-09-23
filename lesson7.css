@@ -1,0 +1,23 @@
+.chat {
+    margin-top: 10px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    gap: 10px;
+    border: 1px black solid;
+}
+.messageSend, .messageGet {
+    border-radius: 5px;
+    border: 1px black solid;
+    background-color: bisque;
+    padding: 15px 10px 15px 10px;
+    margin: 0 0 0 0;
+    align-self: flex-start;
+}
+
+.messageSend {
+    text-align: right;
+    background-color: antiquewhite;
+    align-self: flex-end;
+}
